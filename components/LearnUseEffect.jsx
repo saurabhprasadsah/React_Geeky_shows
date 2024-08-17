@@ -18,14 +18,17 @@ export const LearnUseEffect = () => {
     //     console.log("useEffect callled")
     // })
 
+    
+
     // it runs the each time when component is mounted ([] means no dependencies)
 
     // useEffect(() => {
     //     console.log("useEffect callled")
     // }, [])
 
+
+
     // it runs the when the component is mounted and whenever dependence change
-    
     useEffect(() => {
         console.log("useEffect callled")
     }, [count, randomNumber])

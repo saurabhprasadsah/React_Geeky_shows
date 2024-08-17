@@ -1,9 +1,12 @@
-import { Learncomponents } from "../components/Learncomponents"
+import { Learncomponents } from "../components/Learncomponents";
 import { LearnEvent } from "../components/LearnEvent";
-import { Learnjsx } from "../components/Learnjsx"
+import { Learnjsx } from "../components/Learnjsx";
 import { LearnLiftingstateup } from "../components/LearnLiftingstateup";
-import { Learnprops } from "../components/Learnprops"
+import { Learnprops } from "../components/Learnprops";
+
 import { LearnState } from "../components/LearnState";
+
+import { CounterApp } from "../components/counterApp";
 
 function App() {
   let roll = 101;
@@ -18,10 +21,11 @@ function App() {
     <Learnprops name="saurah kumar" roll={roll}/> */}
      {/* <LearnEvent/> */}
      {/* <LearnLiftingstateup  mydata={getData}/> */}
-
-     <LearnState/>
+     {/* <LearnState/> */}
+     <CounterApp/>
 
     </>
   )
 }
+
 export default App

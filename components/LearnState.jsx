@@ -26,3 +26,5 @@ const handleposition = () =>{
 
   )
 }
+
+//useState: it will be the handle the inbuilt hooks in react which provide the react application. 

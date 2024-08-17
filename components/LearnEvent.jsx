@@ -6,7 +6,7 @@ export const LearnEvent = () => {
     }
 
     const handleclick2 = (myid) =>{
-        console.log("Button clicked 2");     
+        console.log("Button clicked 2", myid);     
     }
 
   return (
@@ -15,7 +15,7 @@ export const LearnEvent = () => {
     <button onClick={handleclick}> Click 1 </button>
 
     {/* with arguments */}
-    <button onClick={(e) =>handleclick2("MyID")} >Click 2</button>
+    <button onClick={(e) => handleclick2("EMP:123456789")}>Click 2</button>
     </>
 
   )

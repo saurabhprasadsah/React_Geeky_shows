@@ -8,9 +8,12 @@ import { LearnState } from "../components/LearnState";
 
 import { CounterApp } from "../components/counterApp";
 
+import { LearnUseEffect } from "../components/LearnuseEffect";
+
+
+
 function App() {
   let roll = 101;
-
   const getData = (data) =>{
     console.log(data)
   }
@@ -22,7 +25,9 @@ function App() {
      {/* <LearnEvent/> */}
      {/* <LearnLiftingstateup  mydata={getData}/> */}
      {/* <LearnState/> */}
-     <CounterApp/>
+     {/* <CounterApp/> */}
+
+     <LearnUseEffect />
 
     </>
   )

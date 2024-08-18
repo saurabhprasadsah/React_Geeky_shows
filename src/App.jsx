@@ -29,11 +29,9 @@ function App() {
      {/* <LearnLiftingstateup  mydata={getData}/> */}
      {/* <LearnState/> */}
      {/* <CounterApp/> */}
-
      {/* <LearnUseEffect /> */}
-
      {/* <LearnUseMemo/> */}
-
+     
      <LearnUseCallback/>
 
     </>

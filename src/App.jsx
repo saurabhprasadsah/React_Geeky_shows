@@ -7,8 +7,11 @@ import { Learnprops } from "../components/Learnprops";
 import { LearnState } from "../components/LearnState";
 
 import { CounterApp } from "../components/counterApp";
-
 import { LearnUseEffect } from "../components/LearnuseEffect";
+
+
+import { LearnUseMemo } from "../components/LearnUseMemo";
+import { LearnUseCallback } from "../components/LearnUseCallback";
 
 
 
@@ -27,7 +30,11 @@ function App() {
      {/* <LearnState/> */}
      {/* <CounterApp/> */}
 
-     <LearnUseEffect />
+     {/* <LearnUseEffect /> */}
+
+     {/* <LearnUseMemo/> */}
+
+     <LearnUseCallback/>
 
     </>
   )

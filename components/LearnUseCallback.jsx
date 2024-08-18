@@ -15,7 +15,7 @@ export const LearnUseCallback = () => {
 
   return (
     <>
-    <GenrateRandomNumber randomNumber={randomNumber} GenrateRandomNumber={genrateRandomNumber} />
+    <GenrateRandomNumber randomNumber={randomNumber} genrateRandomNumber={genrateRandomNumber} />
     <h1>Count: {count}</h1>
     <button onClick={handleIncrementCount}> Increase Count </button>
     </>

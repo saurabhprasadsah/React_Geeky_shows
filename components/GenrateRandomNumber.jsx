@@ -1,12 +1,12 @@
 import { memo } from "react";
 
-export const GenrateRandomNumber = memo(({randomNumber, GenrateRandomNumber}) =>{
-    console.log("Genrate number number componnets received")
+export const GenrateRandomNumber = memo(({randomNumber, genrateRandomNumber}) =>{
+    console.log("Genrate number componets Received")
 
     return(
         <>
-        <h2>Random Number: {randomNumber}</h2>
-        <button onClick={GenrateRandomNumber}> Genrate Random Number </button>
+        <h1>Random Number: {randomNumber}</h1>
+        <button onClick={genrateRandomNumber}> Genrate Random Number </button>
         </>
     )
 })

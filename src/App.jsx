@@ -14,6 +14,9 @@ import { LearnUseMemo } from "../components/LearnUseMemo";
 import { LearnUseCallback } from "../components/LearnUseCallback";
 import { GenrateRandomNumber } from "../components/GenrateRandomNumber";
 
+import { LearnCustomHook } from "../components/LearnCustomHook";
+
+
 
 
 function App() {
@@ -33,8 +36,9 @@ function App() {
      {/* <LearnUseEffect /> */}
      {/* <LearnUseMemo/> */}
 
-     <LearnUseCallback/>
-     <GenrateRandomNumber/>
+     {/* <LearnUseCallback/>
+     <GenrateRandomNumber/> */}
+     <LearnCustomHook/>
 
     </>
   )

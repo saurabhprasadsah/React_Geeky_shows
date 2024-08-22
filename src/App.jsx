@@ -13,6 +13,7 @@ import { GenrateRandomNumber } from "../components/GenrateRandomNumber";
 import { LearnCustomHook } from "../components/LearnCustomHook";
 import { LearnConditionalRendring } from "../components/LearnConditionalRendring";
 import { LearnMap } from "../components/LearnMap";
+import { LearnInline } from "../components/LearnInline";
 
 
 function App() {
@@ -36,8 +37,8 @@ function App() {
      <GenrateRandomNumber/> */}
      {/* <LearnCustomHook/> */}
      {/* <LearnConditionalRendring/> */}
-     
-    < LearnMap/>
+     {/* < LearnMap/> */}
+     <LearnInline/>
 
 
     </>

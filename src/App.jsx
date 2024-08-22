@@ -14,10 +14,15 @@ import { LearnCustomHook } from "../components/LearnCustomHook";
 import { LearnConditionalRendring } from "../components/LearnConditionalRendring";
 import { LearnMap } from "../components/LearnMap";
 import { LearnInline } from "../components/LearnInline";
+import { ExternalCss1 } from "../components/ExternalCss1";
+import { ExternalCss2 } from "../components/ExternalCss2";
+import { LearnCSSModule } from "../components/LearnCSSModule";
+import{LearnCSSModule2} from "../components/LearnCSSModule2";
 
 
 function App() {
   let roll = 101;
+
   const getData = (data) =>{
     console.log(data)
   }
@@ -39,8 +44,13 @@ function App() {
      {/* <LearnConditionalRendring/> */}
      {/* < LearnMap/> */}
      {/* <LearnInline/> */}
+     {/* <ExternalCss1/>
+     <ExternalCss2/> */}
 
-     
+     <LearnCSSModule/>
+     <LearnCSSModule2/>
+
+
 
 
     </>

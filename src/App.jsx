@@ -11,6 +11,7 @@ import { LearnUseCallback } from "../components/LearnUseCallback";
 import { GenrateRandomNumber } from "../components/GenrateRandomNumber";
 
 import { LearnCustomHook } from "../components/LearnCustomHook";
+import { LearnConditionalRendring } from "../components/LearnConditionalRendring";
 
 
 function App() {
@@ -33,7 +34,9 @@ function App() {
      {/* <LearnUseCallback/>
      <GenrateRandomNumber/> */}
      
-     <LearnCustomHook/>
+     {/* <LearnCustomHook/> */}
+
+     <LearnConditionalRendring/>
 
     </>
   )

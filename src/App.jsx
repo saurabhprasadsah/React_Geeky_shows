@@ -38,7 +38,9 @@ function App() {
      {/* <LearnCustomHook/> */}
      {/* <LearnConditionalRendring/> */}
      {/* < LearnMap/> */}
-     <LearnInline/>
+     {/* <LearnInline/> */}
+
+     
 
 
     </>
